@@ -5,14 +5,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const unfoldButton = document.getElementById('unfoldButton');
     const finalGreetingElement = document.getElementById('finalGreeting');
 
-    const steps = {
+        const steps = {
         step1: document.getElementById('step1'),
         step2: document.getElementById('step2'),
         step3: document.getElementById('step3'),
-        step4: document.getElementById('step4'),
+        step4: document.getElementById('step4')
     };
 
-    const recipientName = "Amrita"; // Customizable Name
+    const recipientName = "Amrita";
+    
     const messageGreeting = "Happy Birthday Mine Love❤️😚,"; // Customizable Greeting
 
     // --- Utility Function to Transition Steps ---
