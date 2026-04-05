@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
         step4: document.getElementById('step4'),
     };
 
-    const recipientName = "Amrita"; // Customizable Name
-    const messageGreeting = "Happy Birthday Mine Love💋😚❤️🫶,"; // Customizable Greeting
+    const recipientName = "Amrita,"; // Customizable Name
+    const messageGreeting = "Happy Birthday Mine Love❤️😚,"; // Customizable Greeting
 
     // --- Utility Function to Transition Steps ---
     function transitionToStep(targetStepId) {
